@@ -5,7 +5,7 @@ const reader = readline.createInterface({
   output: process.stdout
 });
 
-reader.question(`Welcome to rock, paper, scissors. Please type 'r', 'p', or 's' to make a choice. \n`, (res) => {
+reader.question(`Welcome to rock, paper, scissors. Please type 'rock', 'paper', or 'scissors' to make a choice. \n`, (res) => {
 
   console.log(`You chose: ${res}`)
 
